@@ -1,0 +1,33 @@
+2025-01-26 23:39:43,954 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 748157712 Bytes (1073741824)
+2025-01-26 23:39:44,144 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 776469264 Bytes (1073741824)
+2025-01-26 23:39:50,923 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 859306760 Bytes (1073741824)
+2025-01-26 23:39:51,244 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-01-26 23:39:51,245 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-01-26 23:39:51,245 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-01-26 23:39:51,245 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-01-26 23:39:51,245 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-01-26 23:39:51,247 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-01-26 23:39:51,791 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\MXTmpFiles\license.tmp_save
+2025-01-26 23:39:52,002 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\MXTmpFiles\license.tmp
+2025-01-26 23:39:52,075 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\MXTmpFiles\gpio.tmp_save
+2025-01-26 23:39:52,268 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\MXTmpFiles\gpio.tmp
+2025-01-26 23:39:52,467 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Src\stm32f4xx_it.c_save
+2025-01-26 23:39:52,841 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Src\stm32f4xx_it.c
+2025-01-26 23:39:52,887 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Inc\stm32f4xx_it.h_save
+2025-01-26 23:39:52,992 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Inc\stm32f4xx_it.h
+2025-01-26 23:39:53,027 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Src\stm32f4xx_hal_msp.c_save
+2025-01-26 23:39:53,169 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Src\stm32f4xx_hal_msp.c
+2025-01-26 23:39:53,183 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\MXTmpFiles\system.tmp_save
+2025-01-26 23:39:53,267 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\MXTmpFiles\system.tmp
+2025-01-26 23:39:53,301 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-01-26 23:39:53,403 [INFO] CodeEngine:335 - Generated code: C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Inc\stm32f4xx_hal_conf.h
+2025-01-26 23:39:53,482 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Inc\main.h_save
+2025-01-26 23:39:53,597 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Inc\main.h
+2025-01-26 23:39:53,626 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Src\main.c_save
+2025-01-26 23:39:53,770 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\Bootloader-STM32\Bootloader\Core\Src\main.c
+2025-01-26 23:39:54,519 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 235mS.
+2025-01-26 23:39:54,522 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-01-26 23:39:54,899 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-01-26 23:39:57,289 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2764mS.
+2025-01-26 23:39:57,291 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-01-26 23:39:57,300 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.

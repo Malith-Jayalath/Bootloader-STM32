@@ -1,0 +1,134 @@
+!SESSION 2025-01-25 23:44:25.761 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-25 23:44:58.078
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-25 23:44:58.091
+!MESSAGE Log4j2 initialized with config file C:\Users\ACER\Documents\GitHub\Bootloader-STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-25 23:45:02.917
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-25 23:47:17.700
+!MESSAGE Indexed 'Bootloader' (19 sources, 81 headers) in 6.5 sec: 4,302 declarations; 18,132 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+
+!ENTRY org.eclipse.debug.ui 4 2 2025-01-26 23:13:47.976
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.ui".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:370)
+	at org.eclipse.swt.widgets.Table.setRedraw(Table.java:4696)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1425)
+	at org.eclipse.debug.internal.ui.memory.provisional.AbstractAsyncTableRendering.refresh(AbstractAsyncTableRendering.java:2107)
+	at org.eclipse.debug.internal.ui.views.memory.renderings.AsyncTableRenderingUpdatePolicy.handleMemoryBlockChanged(AsyncTableRenderingUpdatePolicy.java:145)
+	at org.eclipse.debug.internal.ui.views.memory.renderings.AsyncTableRenderingUpdatePolicy.modelChanged(AsyncTableRenderingUpdatePolicy.java:76)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:92)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:96)
+	at org.eclipse.debug.internal.ui.viewers.update.MemoryBlockProxy$1.handleChange(MemoryBlockProxy.java:54)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchChange(EventHandlerModelProxy.java:237)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:137)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1259)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:491)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.ui 4 120 2025-01-26 23:13:47.977
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:370)
+	at org.eclipse.swt.widgets.Table.setRedraw(Table.java:4696)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1425)
+	at org.eclipse.debug.internal.ui.memory.provisional.AbstractAsyncTableRendering.refresh(AbstractAsyncTableRendering.java:2107)
+	at org.eclipse.debug.internal.ui.views.memory.renderings.AsyncTableRenderingUpdatePolicy.handleMemoryBlockChanged(AsyncTableRenderingUpdatePolicy.java:145)
+	at org.eclipse.debug.internal.ui.views.memory.renderings.AsyncTableRenderingUpdatePolicy.modelChanged(AsyncTableRenderingUpdatePolicy.java:76)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:92)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:96)
+	at org.eclipse.debug.internal.ui.viewers.update.MemoryBlockProxy$1.handleChange(MemoryBlockProxy.java:54)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchChange(EventHandlerModelProxy.java:237)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:137)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1259)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:491)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.ui 4 2 2025-01-26 23:13:53.284
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.ui".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:370)
+	at org.eclipse.swt.widgets.Table.setRedraw(Table.java:4696)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1425)
+	at org.eclipse.debug.internal.ui.memory.provisional.AbstractAsyncTableRendering.refresh(AbstractAsyncTableRendering.java:2107)
+	at org.eclipse.debug.internal.ui.views.memory.renderings.AsyncTableRenderingUpdatePolicy.handleMemoryBlockChanged(AsyncTableRenderingUpdatePolicy.java:145)
+	at org.eclipse.debug.internal.ui.views.memory.renderings.AsyncTableRenderingUpdatePolicy.modelChanged(AsyncTableRenderingUpdatePolicy.java:76)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:92)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:96)
+	at org.eclipse.debug.internal.ui.viewers.update.MemoryBlockProxy$1.handleChange(MemoryBlockProxy.java:54)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchChange(EventHandlerModelProxy.java:237)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:137)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1259)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:491)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.ui 4 120 2025-01-26 23:13:53.285
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:370)
+	at org.eclipse.swt.widgets.Table.setRedraw(Table.java:4696)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1425)
+	at org.eclipse.debug.internal.ui.memory.provisional.AbstractAsyncTableRendering.refresh(AbstractAsyncTableRendering.java:2107)
+	at org.eclipse.debug.internal.ui.views.memory.renderings.AsyncTableRenderingUpdatePolicy.handleMemoryBlockChanged(AsyncTableRenderingUpdatePolicy.java:145)
+	at org.eclipse.debug.internal.ui.views.memory.renderings.AsyncTableRenderingUpdatePolicy.modelChanged(AsyncTableRenderingUpdatePolicy.java:76)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:92)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:96)
+	at org.eclipse.debug.internal.ui.viewers.update.MemoryBlockProxy$1.handleChange(MemoryBlockProxy.java:54)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchChange(EventHandlerModelProxy.java:237)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:137)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1259)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:491)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-26 23:41:11.421
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 3 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-26 23:41:11.422
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-26 23:41:11.423
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 3 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-26 23:41:11.424
+!MESSAGE Existing sessions are:
