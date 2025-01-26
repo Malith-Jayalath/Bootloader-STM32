@@ -18,3 +18,11 @@ Created an application that runs after the bootloader starts in a different port
 ![image](https://github.com/user-attachments/assets/ca0c6af5-f23c-4bba-a21f-203d7dce392b)
 
 ![image](https://github.com/user-attachments/assets/eac23595-7039-4594-bdf4-17b2e4f996ce)
+
+### Creating a new function in that memory partition
+
+![image](https://github.com/user-attachments/assets/40f0cfda-75f2-4bba-979c-f259fd18d596)
+
+![image](https://github.com/user-attachments/assets/0f89e6a6-0f61-4660-bdc4-39e255669391)
+
+![image](https://github.com/user-attachments/assets/eec1d76f-35d0-447d-9f7e-8a9af455c0e4)
